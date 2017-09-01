@@ -152,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         };
+        mMessagesDatabaseReference.addChildEventListener(mChildEventListener);
     }
 
     @Override
